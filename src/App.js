@@ -6,8 +6,8 @@ import {
 
 import IndexPage from './pages/Index.js';
 import AboutusPage from './pages/Aboutus.js';
-import ServiciosPage from './pages/Servicios.js';
-import ContactoPage from './pages/Contacto.js';
+import ServiciosPage from './pages/Pricing.js';
+import ContactoPage from './pages/ContactUs.js';
 
 function App() {
   return (
@@ -16,9 +16,9 @@ function App() {
          
       <Route path="/aboutus" element={<AboutusPage />} />
          
-      <Route path="/servicios" element={<ServiciosPage />} />
+      <Route path="/pricing" element={<ServiciosPage />} />
          
-      <Route path="/contacto" element={<ContactoPage />} />
+      <Route path="/contactUs" element={<ContactoPage />} />
     </Routes>
   );
 }

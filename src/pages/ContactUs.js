@@ -12,7 +12,7 @@ const meta = {
   script: [],
 };
 
-export default function Contacto() {
+export default function ContactUs() {
   return (
     <React.Fragment>
       <HelmetProvider>

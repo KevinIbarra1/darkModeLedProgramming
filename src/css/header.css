@@ -1,0 +1,90 @@
+.section-container {
+    padding-top: 1.5rem;
+    padding-bottom: 5rem;
+    background-color: #1a1a1a; /* Dark background */
+    overflow: hidden;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 2rem;
+  }
+  
+  .navbar-container {
+    margin-bottom: 1.5rem;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem;
+    background-color: #333;
+    border-radius: 999px;
+  }
+  
+  .logo a {
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+  }
+  
+  .burger-icon {
+    cursor: pointer;
+  }
+  
+  .menu {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    width: 66.666%; /* 2/3 of the screen width */
+    max-width: 320px; /* Limiting the max width */
+    background-color: #333;
+    transition: transform 0.3s ease-in-out;
+    z-index: 50;
+  }
+  
+  .menu-open {
+    transform: translateX(0);
+  }
+  
+  .menu-closed {
+    transform: translateX(-100%);
+  }
+  
+  .menu-backdrop {
+    position: fixed;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  
+  .menu-content {
+    position: relative;
+    padding: 2rem;
+    height: 100%;
+    overflow-y: auto;
+  }
+  
+  .menu-close {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+  }
+  
+  .menu-items li {
+    margin-bottom: 2.25rem;
+  }
+  
+  .menu-items a {
+    display: block;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #ccc;
+    text-decoration: none;
+  }
+  
+  .menu-items a:hover {
+    color: #fff;
+  }
+  

@@ -12,7 +12,7 @@ export default function AboutusSectionTestimonialsDarkReverse6() {
           <div className="w-full md:w-1/2 p-8">
             <p className="mb-10 text-2xl text-gray-500 font-bold">"Had some issues where my site crashed and broke, reached out to Shuffle Editor to see if they could help me fix it. Even though we are 12 hours apart in time, they were quick to reply and helpful/willing to do what is needed to fix the issue."</p>
             <h3 className="font-heading text-2xl text-gray-100 font-black">Michael Quiñones</h3>
-            <p className="text-sm text-gray-700 font-bold">@@qa_michael</p>
+            <p className="text-sm text-gray-700 font-bold">@qa_michael</p>
           </div>
           <div className="w-full md:w-1/2 p-8">
             <img className="mx-auto md:ml-0 rounded-3xl" src="https://static.shuffle.dev/uploads/files/38/38520844e6fddaddf499e0d30fc448e7f4065004/WhatsApp-Image-2024-05-06-at-3-41-01-PM.jpeg" alt="" />
