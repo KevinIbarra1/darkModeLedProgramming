@@ -4,6 +4,7 @@ import AboutusSectionNavigations8 from '../components/navigations/AboutusSection
 import AboutusSectionTestimonialsDarkReverse5 from '../components/testimonials-dark-reverse/AboutusSectionTestimonialsDarkReverse5';
 import AboutusSectionTestimonialsDarkReverse6 from '../components/testimonials-dark-reverse/AboutusSectionTestimonialsDarkReverse6';
 import AboutusSectionFootersDarkReverse7 from '../components/footers-dark-reverse/AboutusSectionFootersDarkReverse7';
+import IndexSectionHeadersDark7 from "../components/headers-dark/IndexSectionHeadersDark7";
 
 const meta = {
   title: '',
@@ -19,7 +20,7 @@ export default function Aboutus() {
       <HelmetProvider>
         <Helmet {...meta}></Helmet>
       </HelmetProvider>
-      <AboutusSectionNavigations8 />
+      <IndexSectionHeadersDark7 />
       <AboutusSectionTestimonialsDarkReverse5 />
       <AboutusSectionTestimonialsDarkReverse6 />
       <AboutusSectionFootersDarkReverse7 />

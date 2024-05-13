@@ -22,7 +22,7 @@ export default function Servicios() {
       <HelmetProvider>
         <Helmet {...meta}></Helmet>
       </HelmetProvider>
-      <ServiciosSectionNavigations13/>
+      <IndexSectionHeadersDark7/>
       <ServiciosSectionFeaturesDarkReverse8 />
       <ServiciosSectionFeaturesDarkReverse9 />
       <ServiciosSectionHowItWorksDarkReverse10 />
