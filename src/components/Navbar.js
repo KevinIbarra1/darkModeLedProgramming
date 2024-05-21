@@ -9,9 +9,9 @@ const Navbar = () => {
   };
 
   return (
-    <div className="pt-6 bg-gray-900 overflow-hidden">
+    <div className="pt-6 bg-gray-800 overflow-hidden">
       <div className="container mx-auto px-4">
-        <div className="flex items-center justify-between px-6 py-3.5 bg-gray-800 rounded-full navbar-container">
+        <div className="flex items-center justify-between px-6 py-3.5 bg-gray-900 rounded-full navbar-container">
           <div className="w-auto">
             <div className="flex flex-wrap items-center">
               <div className="w-auto text-white text-sm font-bold flex items-center">
@@ -184,69 +184,4 @@ const Navbar = () => {
   );
 };
 
-export default function IndexSectionHeadersDark7() {
-  const [isMenuOpen, setIsMenuOpen] = useState(false);
-
-  const toggleMenu = () => {
-    setIsMenuOpen(!isMenuOpen);
-  };
-
-  return (
-    <React.Fragment>
-      <Navbar />
-      <section className="pt-6 pb-5 bg-gray-900 overflow-hidden">
-        <div className="container mx-auto px-4">
-          
-          <div className="mb-8 p-8 bg-gray-800 rounded-3xl">
-            <div className="flex flex-wrap lg:items-center -m-8">
-              <div className="w-full md:w-1/2 p-8">
-                <div className="md:max-w-lg mx-auto">
-                  <h1 className="font-heading mb-4 text-5xl text-white font-black tracking-tight">
-                    <span>Take your Business to the </span>
-                    <span className="text-transparent bg-clip-text bg-gradient-red-light">
-                      Next
-                    </span>
-                    <span> Level.</span>
-                  </h1>
-                  <p className="mb-6 text-xl text-gray-500 font-bold">
-                    We elevate your business by creating a custom website
-                    tailored to your unique needs.
-                  </p>
-                  <div className="flex flex-wrap -m-2">
-                    <div className="w-full md:w-auto p-2">
-                      <a
-                        className="block w-full px-4 py-2.5 text-sm text-center text-white font-bold bg-blue-500 hover:bg-blue-600 focus:ring-4 focus:ring-blue-200 rounded-full"
-                        href="#"
-                      >
-                        Get Started
-                      </a>
-                    </div>
-                    <div className="w-full md:w-auto p-2">
-                      <a
-                        className="block w-full px-4 py-2.5 text-sm text-center text-gray-900 font-bold bg-gray-100 hover:bg-gray-200 focus:ring-4 focus:ring-gray-200 rounded-full"
-                        href="#"
-                      >
-                        Watch Video
-                      </a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className="w-full md:w-1/2 p-8">
-                <div className="max-w-max mx-auto md:mr-0 overflow-hidden rounded-3xl">
-                  <div className="max-w-max mx-auto md:mr-0 overflow-hidden rounded-3xl">
-                    <img
-                      className="mx-auto h-444  w-506" // Adjust the size here
-                      src="/lensCode.jpg"
-                      alt=""
-                    />
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-    </React.Fragment>
-  );
-}
+export default Navbar;
