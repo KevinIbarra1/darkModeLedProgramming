@@ -35,7 +35,7 @@ const Navbar = () => {
                       className="inline-block text-sm font-bold text-gray-200 hover:text-gray-300"
                       href="/pricing"
                     >
-                      Pricing
+                      Services
                     </a>
                   </li>
                   <li className="mr-9">
@@ -196,7 +196,6 @@ export default function IndexSectionHeadersDark7() {
       <Navbar />
       <section className="pt-6 pb-5 bg-gray-900 overflow-hidden">
         <div className="container mx-auto px-4">
-          
           <div className="mb-8 p-8 bg-gray-800 rounded-3xl">
             <div className="flex flex-wrap lg:items-center -m-8">
               <div className="w-full md:w-1/2 p-8">
@@ -212,24 +211,6 @@ export default function IndexSectionHeadersDark7() {
                     We elevate your business by creating a custom website
                     tailored to your unique needs.
                   </p>
-                  <div className="flex flex-wrap -m-2">
-                    <div className="w-full md:w-auto p-2">
-                      <a
-                        className="block w-full px-4 py-2.5 text-sm text-center text-white font-bold bg-blue-500 hover:bg-blue-600 focus:ring-4 focus:ring-blue-200 rounded-full"
-                        href="#"
-                      >
-                        Get Started
-                      </a>
-                    </div>
-                    <div className="w-full md:w-auto p-2">
-                      <a
-                        className="block w-full px-4 py-2.5 text-sm text-center text-gray-900 font-bold bg-gray-100 hover:bg-gray-200 focus:ring-4 focus:ring-gray-200 rounded-full"
-                        href="#"
-                      >
-                        Watch Video
-                      </a>
-                    </div>
-                  </div>
                 </div>
               </div>
               <div className="w-full md:w-1/2 p-8">

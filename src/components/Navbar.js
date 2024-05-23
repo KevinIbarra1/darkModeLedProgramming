@@ -158,7 +158,7 @@ const Navbar = () => {
                 className="inline-block text-2xl font-bold text-gray-200 hover:text-gray-300"
                 href="/pricing"
               >
-                Pricing
+                Services
               </a>
             </li>
             <li className="mb-4">

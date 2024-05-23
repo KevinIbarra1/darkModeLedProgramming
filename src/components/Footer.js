@@ -63,11 +63,11 @@ export default function AboutusSectionFootersDarkReverse7() {
                       <div className="w-auto p-1.5">
                         <a
                           className="flex items-center justify-center w-10 h-10 bg-gray-700 rounded-full"
-                          href="#"
+                          href="https://www.instagram.com/ledprogramming/"
                         >
                           <img
                             src="zanrly-assets/images/footers/insta-dark.svg"
-                            alt=""
+                            alt="Instagram"
                           />
                         </a>
                       </div>
@@ -76,7 +76,7 @@ export default function AboutusSectionFootersDarkReverse7() {
                           className="flex items-center justify-center w-10 h-10 bg-gray-700 rounded-full"
                           href="#"
                         >
-                          <img src="zanrly-assets/images/fb-dark.svg" alt="" />
+                          <img src="zanrly-assets/images/fb-dark.svg" alt="Facebook" />
                         </a>
                       </div>
                     </div>

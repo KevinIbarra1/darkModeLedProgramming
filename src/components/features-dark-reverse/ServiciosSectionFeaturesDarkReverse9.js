@@ -10,8 +10,7 @@ export default function ServiciosSectionFeaturesDarkReverse9() {
       <div className="flex flex-wrap -m-8">
         <div className="w-full md:w-1/2 p-8">
           <div className="md:max-w-md">
-            <span className="inline-block mb-5 text-sm text-blue-500 font-bold uppercase tracking-widest">Feature</span>
-            <h2 className="font-heading mb-10 text-4xl text-gray-100 font-black tracking-tight">SEO  Optimization</h2>
+            <h2 className="font-heading mb-10 text-4xl text-gray-100 font-black tracking-tight">SEO Optimization</h2>
             <div className="flex flex-wrap -m-2.5">
               <div className="w-full p-2.5">
                 <div className="flex flex-wrap -m-3">
@@ -25,8 +24,8 @@ export default function ServiciosSectionFeaturesDarkReverse9() {
                     </div>
                   </div>
                   <div className="flex-1 p-3">
-                    <h3 className="font-heading mb-2 text-xl text-gray-100 font-black">Lorem ipsum dolores</h3>
-                    <p className="text-sm text-gray-500 font-bold">Lorem ipsum dolor sit amet sectetur adip elit donec.</p>
+                    <h3 className="font-heading mb-2 text-xl text-gray-100 font-black">Keyword Research</h3>
+                    <p className="text-sm text-gray-500 font-bold">We identify the best keywords to target, ensuring your content reaches the right audience.</p>
                   </div>
                 </div>
               </div>
@@ -40,8 +39,24 @@ export default function ServiciosSectionFeaturesDarkReverse9() {
                     </div>
                   </div>
                   <div className="flex-1 p-3">
-                    <h3 className="font-heading mb-2 text-xl text-gray-100 font-black">Lorem ipsum dolores</h3>
-                    <p className="text-sm text-gray-500 font-bold">Lorem ipsum dolor sit amet sectetur adip elit donec.</p>
+                    <h3 className="font-heading mb-2 text-xl text-gray-100 font-black">Content Optimization</h3>
+                    <p className="text-sm text-gray-500 font-bold">We optimize your content to improve search engine rankings and drive more traffic to your site.</p>
+                  </div>
+                </div>
+              </div>
+              <div className="w-full p-2.5">
+                <div className="flex flex-wrap -m-3">
+                  <div className="w-auto p-3">
+                    <div className="flex items-center justify-center w-12 h-12 bg-gray-800 rounded-xl">
+                      <svg width={24} height={24} viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M12 2C6.477 2 2 6.477 2 12s4.477 10 10 10 10-4.477 10-10S17.523 2 12 2zm0 18a8 8 0 100-16 8 8 0 000 16z" fill="#3B82F6" />
+                        <path d="M13 7h-2v6h6v-2h-4V7z" fill="#3B82F6" />
+                      </svg>
+                    </div>
+                  </div>
+                  <div className="flex-1 p-3">
+                    <h3 className="font-heading mb-2 text-xl text-gray-100 font-black">Technical SEO</h3>
+                    <p className="text-sm text-gray-500 font-bold">We ensure your website is technically optimized for search engines to improve its visibility and performance.</p>
                   </div>
                 </div>
               </div>
@@ -53,10 +68,7 @@ export default function ServiciosSectionFeaturesDarkReverse9() {
     </div>
   </div>
 </section>
-
-
             </>
         </React.Fragment>
     );
 }
-
