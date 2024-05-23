@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function ContactusSectionFootersDarkReverse7() {
+export default function AboutusSectionFootersDarkReverse7() {
   return (
     <React.Fragment>
       <>
@@ -27,41 +27,33 @@ export default function ContactusSectionFootersDarkReverse7() {
                       <li className="inline-flex p-6">
                         <a
                           className="inline-block text-gray-500 hover:text-gray-600 font-bold"
-                          href="#"
+                          href="/"
                         >
-                          Products
+                          Home
                         </a>
                       </li>
                       <li className="inline-flex p-6">
                         <a
                           className="inline-block text-gray-500 hover:text-gray-600 font-bold"
-                          href="#"
+                          href="/Pricing"
                         >
-                          About Us
+                          Services
                         </a>
                       </li>
                       <li className="inline-flex p-6">
                         <a
                           className="inline-block text-gray-500 hover:text-gray-600 font-bold"
-                          href="#"
+                          href="/Contactus"
                         >
-                          Careers
+                          Contact
                         </a>
                       </li>
                       <li className="inline-flex p-6">
                         <a
                           className="inline-block text-gray-500 hover:text-gray-600 font-bold"
-                          href="#"
+                          href="/Aboutus"
                         >
-                          Portfolio
-                        </a>
-                      </li>
-                      <li className="inline-flex p-6">
-                        <a
-                          className="inline-block text-gray-500 hover:text-gray-600 font-bold"
-                          href="#"
-                        >
-                          Contact Us
+                          About
                         </a>
                       </li>
                     </ul>

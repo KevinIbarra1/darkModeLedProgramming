@@ -22,7 +22,7 @@ const Navbar = () => {
                     className="h-12 w-12 mr-2"
                   />
                 </a>
-                <a href="/">Led Programming</a>
+                <a href="/">LED PROGRAMMING</a>
               </div>
             </div>
           </div>
@@ -35,7 +35,7 @@ const Navbar = () => {
                       className="inline-block text-sm font-bold text-gray-200 hover:text-gray-300"
                       href="/pricing"
                     >
-                      Pricing
+                      Services
                     </a>
                   </li>
                   <li className="mr-9">

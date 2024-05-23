@@ -6,6 +6,7 @@ import ServiciosSectionHowItWorksDarkReverse10 from "../components/how-it-works-
 import ServiciosSectionPricingDarkReverse11 from "../components/pricing-dark-reverse/ServiciosSectionPricingDarkReverse11";
 import ServiciosSectionFootersDarkReverse12 from "../components/footers-dark-reverse/ServiciosSectionFootersDarkReverse12";
 import Navbar from "../components/Navbar";
+import Footer from "../components/Footer";
 
 const meta = {
   title: "Servicios",
@@ -26,7 +27,7 @@ export default function Servicios() {
       <ServiciosSectionFeaturesDarkReverse9 />
       <ServiciosSectionHowItWorksDarkReverse10 />
       <ServiciosSectionPricingDarkReverse11 />
-      <ServiciosSectionFootersDarkReverse12 />
+      <Footer />
     </React.Fragment>
   );
 }

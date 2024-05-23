@@ -4,6 +4,7 @@ import IndexSectionHeadersDark7 from '../components/headers-dark/IndexSectionHea
 import IndexSectionContactDark8 from '../components/contact-dark/IndexSectionContactDark8';
 import IndexSectionHowItWorksDarkReverse10 from '../components/how-it-works-dark-reverse/IndexSectionHowItWorksDarkReverse10';
 import IndexSectionFootersDarkReverse11 from '../components/footers-dark-reverse/IndexSectionFootersDarkReverse11';
+import Footer from '../components/Footer';
 
 const meta = {
   title: '',
@@ -22,7 +23,7 @@ export default function Index() {
       <IndexSectionHeadersDark7 />
       <IndexSectionContactDark8 />
       <IndexSectionHowItWorksDarkReverse10 />
-      <IndexSectionFootersDarkReverse11 />
+      <Footer />
     </React.Fragment>
   );
 }

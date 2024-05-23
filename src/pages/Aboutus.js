@@ -4,6 +4,7 @@ import AboutusSectionTestimonialsDarkReverse5 from "../components/testimonials-d
 import AboutusSectionTestimonialsDarkReverse6 from "../components/testimonials-dark-reverse/AboutusSectionTestimonialsDarkReverse6";
 import AboutusSectionFootersDarkReverse7 from "../components/footers-dark-reverse/AboutusSectionFootersDarkReverse7";
 import Navbar from "../components/Navbar";
+import Footer from "../components/Footer";
 
 const meta = {
   title: "About Us",
@@ -22,7 +23,7 @@ export default function Aboutus() {
       <Navbar />
       <AboutusSectionTestimonialsDarkReverse5 />
       <AboutusSectionTestimonialsDarkReverse6 />
-      <AboutusSectionFootersDarkReverse7 />
+      <Footer />
     </React.Fragment>
   );
 }

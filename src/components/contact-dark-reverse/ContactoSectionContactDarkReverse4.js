@@ -48,7 +48,7 @@ export default function ContactoSectionContactDarkReverse4() {
                   Get connected
                 </h2>
                 <p className="text-gray-400 font-bold">
-                  Have questions? Send us a message and well get back to you as
+                  Have questions? Send us a message and we'll get back to you as
                   soon as possible.
                 </p>
               </div>
@@ -147,19 +147,13 @@ export default function ContactoSectionContactDarkReverse4() {
                     />
                   </div>
                   <div className="w-full p-3.5">
-                    <div className="flex flex-wrap items-center -m-2">
-                      <div className="w-full md:w-1/2 p-2">
-                        <div className="flex flex-wrap md:justify-end -m-2">
-                          <div className="w-full md:w-auto p-2">
-                            <button
-                              type="submit"
-                              className="block w-full px-8 md:px-16 py-3.5 text-lg text-center text-white font-bold bg-blue-500 hover:bg-blue-600 focus:ring-4 focus:ring-blue-200 rounded-full"
-                            >
-                              Send Message
-                            </button>
-                          </div>
-                        </div>
-                      </div>
+                    <div className="flex justify-center">
+                      <button
+                        type="submit"
+                        className="px-8 py-3.5 text-lg text-center text-white font-bold bg-blue-500 hover:bg-blue-600 focus:ring-4 focus:ring-blue-200 rounded-full"
+                      >
+                        Send Message
+                      </button>
                     </div>
                   </div>
                 </div>
